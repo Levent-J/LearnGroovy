@@ -1,0 +1,12 @@
+task hello{
+  doLast{
+    println'Hello My World!'
+  }
+}
+
+task printList{
+  def numlist=[1,2,3]
+  numlist.each{
+    println it
+  }
+}
