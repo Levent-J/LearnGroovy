@@ -6,6 +6,8 @@ task hello{
 
 task printList{
   def numlist=[1,2,3]
+  println numlist[0]
+  println numlist[10]
   numlist.each{
     println it
   }
